@@ -8,7 +8,7 @@ apt-get install docker.io -y
 
 #Baixar os containers oficiais
 docker pull mysql
-docker pull zabbix/zabbix-server-mysql:6.0-ubuntu-latest
+docker pull zabbix/zabbix-server-mysql
 docker pull zabbix/zabbix-web-apache-mysql
 docker pull zabbix/zabbix-java-gateway
 docker pull zabbix/zabbix-agent
